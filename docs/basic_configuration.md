@@ -1,5 +1,6 @@
 # Basic Configuration
 ## Prerequisites
+
 Make sure that you have the locale properly set up in your project:
 ```shell
 # src/App/Infrastructure/Symfony/Framework/config/config.yml
@@ -37,6 +38,7 @@ Check out [BengorUser repository](https://github.com/BengorUser) and [BengorFile
 for complete documentation about the installation process of these bundles.
 
 ## Install dependencies
+
 Add these dependencies to the *composer.json* file:
 ```
 {
@@ -82,6 +84,7 @@ public function registerBundles()
 
 
 ## Basic set up
+
 With this basic configuration you will have access to the **Admin CMS** with access to one entity and no security
 implemented and no translations.
 
@@ -99,6 +102,7 @@ lin3s_admin:
 ```
 
 ### Twig Templates
+
 Now you have to add the twig templates for customizing the **CMS** to your requirements, the following files have
 to be modified in the `src/App/Infrastructure/Symfony/Framework/Resources/LIN3SAdminBundle` folder. You have to
 create the folder structure if it already does not exist:
@@ -132,6 +136,7 @@ My awesome project name
 ```
 
 ### Add an entity to the CMS
+
 Given a simple entity called *Category*:
 ```
 namespace App\Domain\Model\Category\Category;
